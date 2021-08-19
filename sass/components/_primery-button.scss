@@ -1,0 +1,27 @@
+.main-section__button {
+  background-color: $accent-button-color;
+  color: $white-text-color;
+
+  border-radius: 4px;
+  padding: 10px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  min-width: 200px;
+
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  transition: background-color 250ms $main-transition-time,
+    box-shadow 250ms $main-transition-time;
+
+  &:hover,
+  &:focus {
+    background-color: $primery-button-accent-color;
+    box-shadow: none;
+  }
+}

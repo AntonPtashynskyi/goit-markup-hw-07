@@ -1,0 +1,29 @@
+@import "./utils/variables";
+@import "./base/normalize";
+@import "./utils/placeholders";
+
+// Main page
+@import "./components/main-body-settings";
+
+// Header
+@import "./components/page-header";
+@import "./components/main-nav";
+@import "./components/logo-header";
+@import "./components/contact-header";
+
+// Hero section
+@import "./components/main-section";
+@import "./components/primery-button";
+
+// Features section
+@import "./components/features-section";
+
+// About us section
+@import "./components/about-us-section";
+
+// Out team
+@import "./components/our-team-members";
+@import "./components/our-team-social-media";
+
+// Custumers
+@import "./components/customers";

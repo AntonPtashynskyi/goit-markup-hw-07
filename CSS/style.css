@@ -1,53 +1,26 @@
-:root {
-  --primery-text-color: #757575;
-  --tittle-text-color: #212121;
-  --accent-text-color: #2196f3;
-  --white-text-color: #ffffff;
-  --primery-button-color: #f5f4fa;
-  --primery-button-accent-color: #188ce8;
-  --accent-button-color: #2196f3;
-  --bg-our-team-section: #f5f4fa;
-  --hero-footer-bg-color: #2f303a;
-  --portfolio-bg-color: #e5e5e5;
-  --primery-social-link-color: #afb1b8;
-  --main-transition-time: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* body primery text color*/
-
-body {
-  color: var(--primery-text-color);
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  font-style: normal;
-}
-
 /* Global list rules */
-.list {
+/* .list {
   list-style: none;
   padding: 0;
   margin: 0;
-}
+} */
 
 /* Container */
-.container {
+/* .container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   outline: 0px solid tomato;
-}
+} */
 
 /* header */
-.page-header {
+/* .page-header {
   border-bottom: 1px solid #ececec;
-}
+} */
 
-.logo {
+/* .logo {
   display: block;
 
   color: var(--tittle-text-color);
@@ -61,11 +34,11 @@ body {
 
 .logo-accent {
   color: var(--accent-text-color);
-}
+} */
 /* SITE NAV */
 
 /* Main-nav */
-.main-nav {
+/* .main-nav {
   display: flex;
   align-items: center;
 }
@@ -117,11 +90,11 @@ body {
   height: 4px;
   border-radius: 2px;
   background-color: var(--accent-button-color);
-}
+} */
 
 /* Contacts header */
 
-.contact {
+/* .contact {
   display: flex;
   margin-left: auto;
 
@@ -159,10 +132,10 @@ body {
 .contact .contact-item:hover,
 .contact .contact-item:focus {
   color: var(--accent-text-color);
-}
+} */
 
 /* MAIN board section + button */
-
+/* 
 .main-section {
   background-color: #c4c4c4;
   display: block;
@@ -183,17 +156,17 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-}
+} */
 
 .features.section {
   padding-bottom: 0;
 }
 
-.section {
+/* .section {
   padding: 94px 0;
-}
+} */
 
-.main-board-text {
+/* .main-board-text {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
@@ -209,11 +182,11 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-bottom: 30px;
-}
+} */
 
 /* PRIMERY BUTTOM */
 
-.primery-button {
+/* .primery-button {
   background-color: var(--accent-button-color);
   color: var(--white-text-color);
 
@@ -241,15 +214,11 @@ body {
   color: var(--white-text-color);
   box-shadow: none;
 }
-
-.button {
-  color: var(--white-text-color);
-  background-color: var(--accent-text-color);
-}
+*/
 
 /* features section */
 
-.features-list {
+/* .features-list {
   display: flex;
 }
 
@@ -291,10 +260,10 @@ body {
 .features-icon {
   width: 70px;
   height: 70px;
-}
+} */
 
 /* About us section */
-.about-us-list {
+/* .about-us-list {
   display: flex;
 }
 
@@ -304,8 +273,8 @@ body {
 
 .about-us-list .item:not(:last-child) {
   margin-right: 30px;
-}
-
+} */
+/* 
 .about-us .about-us-tittle,
 .team-tittle {
   color: var(--tittle-text-color);
@@ -314,9 +283,9 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-}
+} */
 
-.about-us .about-us-tittle {
+/* .about-us .about-us-tittle {
   margin-top: 0;
   margin-bottom: 50px;
 }
@@ -362,14 +331,23 @@ body {
   text-transform: uppercase;
   color: var(--white-text-color);
   padding: 27px 0;
-}
+} */
 
 /* Our team section */
-
+/* 
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--bg-our-team-section);
+}
+
+.team-tittle {
+  color: var(--tittle-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 .team-list {
@@ -415,10 +393,10 @@ body {
   display: block;
   line-height: 1.9;
   margin-bottom: 16px;
-}
+} */
 
 /* Social Links  */
-
+/* 
 .team.section .links-list {
   display: flex;
   width: 206px;
@@ -452,10 +430,10 @@ body {
 .links-list .link:focus {
   color: var(--white-text-color);
   background-color: var(--accent-button-color);
-}
+} */
 
 /* Regular customers */
-
+/* 
 .customers .team-tittle {
   margin-top: 0;
   margin-bottom: 50px;
@@ -501,7 +479,7 @@ body {
 .customers-link:focus {
   border: 1px solid var(--accent-button-color);
   color: var(--accent-button-color);
-}
+} */
 
 /* footer, contacts section same as in header*/
 
