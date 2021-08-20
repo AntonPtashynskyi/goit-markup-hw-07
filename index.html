@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./sass/base/_normalize.scss" />
-    <link rel="stylesheet" href="./dist/css/main.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body class="body">
     <!-- Header -->
@@ -488,75 +488,76 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer section">
-      <div class="footer-container">
-        <div class="footer-contact-box">
-          <a href="index.html" class="logo"
-            ><span class="logo-accent">Web</span>Studio
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="contact-block">
+          <a href="index.html" class="logo-footer"
+            ><span class="logo-footer--accent">Web</span>Studio
           </a>
-          <address class="footer-adress">
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
+          <address class="adress">
+            <p class="adress__company">г. Киев, пр-т Леси Украинки, 26</p>
           </address>
-          <ul class="footer-contact contact list">
-            <li class="footer-list-contact">
-              <a class="contact-item" href="mailto:info@devstudio.com"
+          <ul class="company-contacts contact list">
+            <li class="company-contacts__item">
+              <a class="company-contacts__link" href="mailto:info@devstudio.com"
                 >info@devstudio.com
               </a>
             </li>
-            <li class="footer-list-contact">
-              <a class="contact-item" href="tel:+380961111111"
+            <li class="company-contacts__item">
+              <a class="company-contacts__link" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
             </li>
           </ul>
         </div>
         <!-- Social links -->
-        <div class="footer-social">
-          <p class="footer-social-tittle">Присоидняйтесь</p>
-          <ul class="footer-list list">
-            <li class="footer-social-item">
-              <a href="#" class="footer-link">
-                <svg class="footer-social-icon" width="20" height="20">
+        <div class="social-block">
+          <p class="social-block__tittle">Присоидняйтесь</p>
+          <ul class="company-links">
+            <li class="company-links__item">
+              <a href="#" class="company-links__social">
+                <svg class="company-links__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-item">
-              <a href="#" class="footer-link">
-                <svg class="footer-social-icon" width="20" height="20">
+            <li class="company-links__item">
+              <a href="#" class="company-links__social">
+                <svg class="company-links__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#twiter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-item">
-              <a href="#" class="footer-link">
-                <svg class="footer-social-icon" width="20" height="20">
+            <li class="company-links__item">
+              <a href="#" class="company-links__social">
+                <svg class="company-links__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-item">
-              <a href="#" class="footer-link">
-                <svg class="footer-social-icon" width="20" height="20">
+            <li class="company-links__item">
+              <a href="#" class="company-links__social">
+                <svg class="company-links__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
+        <!-- Footer Subscribe-block -->
         <div class="subscribe-block">
-          <p class="footer-social-tittle">Подпишитесь на рассылку</p>
+          <p class="subscribe-block__tittle">Подпишитесь на рассылку</p>
           <form class="subscribe-form">
             <input
               type="email"
               name="email-sub"
               placeholder="E-mail"
-              class="input-mail"
+              class="subscribe-form__mail-input"
               required
             />
-            <button type="submit" class="subscribe-btn">
+            <button type="submit" class="subscribe-form__btn subscribe-btn">
               Подписаться
-              <svg class="subscribe-icon" width="24" height="24">
+              <svg class="subscribe-btn__icon" width="24" height="24">
                 <use href="./images/symbol-defs.svg#icon-send"></use>
               </svg>
             </button>

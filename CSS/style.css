@@ -482,7 +482,7 @@
 } */
 
 /* footer, contacts section same as in header*/
-
+/* 
 .footer-container {
   display: flex;
   align-items: center;
@@ -637,7 +637,7 @@
 .subscribe-btn:hover,
 .subscribe-btn:focus {
   background-color: var(--primery-button-accent-color);
-}
+} */
 
 /* PORTFOLIO HTML */
 

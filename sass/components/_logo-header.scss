@@ -1,12 +1,8 @@
 .logo {
-  display: block;
+  @extend %logo;
 
+  display: block;
   color: $tittle-text-color;
-  font-family: $secondary-font;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
   margin-right: 93px;
 
   &--accent {
