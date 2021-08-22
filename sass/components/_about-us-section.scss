@@ -2,6 +2,10 @@
   @extend %section;
 }
 
+.about-us-section {
+  padding-bottom: 94px;
+}
+
 .about-us {
   &__tittle {
     color: $tittle-text-color;

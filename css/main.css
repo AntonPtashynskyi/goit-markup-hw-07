@@ -289,7 +289,7 @@ summary {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  outline: 0px solid tomato;
 }
 
 .features, .about-us, .footer {
@@ -342,7 +342,7 @@ summary {
 }
 
 .body {
-  color: var(--primery-text-color);
+  color: #757575;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-weight: 400;
@@ -357,7 +357,7 @@ summary {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  outline: 0px solid tomato;
 }
 
 .section {
@@ -365,7 +365,7 @@ summary {
 }
 
 .section-tittle {
-  color: var(--tittle-text-color);
+  color: #212121;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -570,6 +570,10 @@ summary {
 
 .features-list__text {
   margin: 0 0 10px 0;
+}
+
+.about-us-section {
+  padding-bottom: 94px;
 }
 
 .about-us__tittle {
@@ -1214,7 +1218,7 @@ summary {
 .filtr-list__button {
   background-color: #f5f4fa;
   color: #212121;
-  font-family: inherit;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -1320,6 +1324,7 @@ summary {
 
 .list-card__project-tittle {
   color: #212121;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
