@@ -44,3 +44,31 @@
 
   margin-bottom: 20px;
 }
+
+%action-btn {
+  background-color: $main-button-color;
+  color: $white-text-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  height: 50px;
+
+  margin: 0 auto 0 auto;
+
+  font-family: $main-font;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+  border-style: none;
+  border: none;
+  display: block;
+
+  transition: background-color 250ms $main-transition-time,
+    box-shadow 250ms $main-transition-time;
+}

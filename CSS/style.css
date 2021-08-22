@@ -89,7 +89,7 @@
   width: auto;
   height: 4px;
   border-radius: 2px;
-  background-color: var(--accent-button-color);
+  background-color: var(--main-button-color);
 } */
 
 /* Contacts header */
@@ -187,7 +187,7 @@
 /* PRIMERY BUTTOM */
 
 /* .primery-button {
-  background-color: var(--accent-button-color);
+  background-color: var(--main-button-color);
   color: var(--white-text-color);
 
   border-radius: 4px;
@@ -210,7 +210,7 @@
 
 .primery-button:hover,
 .primery-button:focus {
-  background-color: var(--primery-button-accent-color);
+  background-color: var(--accent-button-color);
   color: var(--white-text-color);
   box-shadow: none;
 }
@@ -429,7 +429,7 @@
 .links-list .link:hover,
 .links-list .link:focus {
   color: var(--white-text-color);
-  background-color: var(--accent-button-color);
+  background-color: var(--main-button-color);
 } */
 
 /* Regular customers */
@@ -477,8 +477,8 @@
 
 .customers-link:hover,
 .customers-link:focus {
-  border: 1px solid var(--accent-button-color);
-  color: var(--accent-button-color);
+  border: 1px solid var(--main-button-color);
+  color: var(--main-button-color);
 } */
 
 /* footer, contacts section same as in header*/
@@ -562,7 +562,7 @@
 
 .footer-link:hover,
 .footer-link:focus {
-  background-color: var(--accent-button-color);
+  background-color: var(--main-button-color);
 }
 
 .footer-social-icon {
@@ -607,7 +607,7 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
 
-  background-color: var(--accent-button-color);
+  background-color: var(--main-button-color);
   color: var(--white-text-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
@@ -636,13 +636,13 @@
 
 .subscribe-btn:hover,
 .subscribe-btn:focus {
-  background-color: var(--primery-button-accent-color);
+  background-color: var(--accent-button-color);
 } */
 
 /* PORTFOLIO HTML */
 
 /* portfolio buttons*/
-
+/* 
 .button {
   background-color: var(--primery-button-color);
   color: var(--tittle-text-color);
@@ -665,7 +665,7 @@
 
 .button:hover,
 .button:focus {
-  background-color: var(--accent-button-color);
+  background-color: var(--main-button-color);
   color: var(--white-text-color);
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -683,9 +683,9 @@
 
 .filtr-list .item + .item {
   margin-left: 8px;
-}
+} */
 
-/* Portfolio list */
+/* Portfolio list
 .portfolio .portfolio-project-tittle {
   color: var(--tittle-text-color);
 
@@ -786,11 +786,11 @@
 
 .portfolio .portfolio-img {
   display: block;
-}
+} */
 
 /* Back drop */
 
-.back-drop {
+/* .back-drop {
   position: fixed;
   top: 0;
   right: 0;
@@ -812,8 +812,8 @@
 
 .back-drop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(1.2);
-}
-
+} */
+/* 
 .modal-form {
   display: inline-block;
   width: 100%;
@@ -861,11 +861,11 @@
 
 .modal-close-button:hover,
 .modal-close-button:focus {
-  fill: var(--accent-button-color);
-}
+  fill: var(--main-button-color);
+} */
 
 /* Form field  */
-
+/* 
 .form-field {
   position: relative;
   display: flex;
@@ -904,7 +904,7 @@
 .form-input:focus,
 .textarea-annotate:focus {
   outline: none;
-  border: 1px solid var(--accent-button-color);
+  border: 1px solid var(--main-button-color);
 }
 
 .textarea-annotate {
@@ -952,7 +952,7 @@
 
 .send-btn:hover,
 .send-btn:focus {
-  background-color: var(--primery-button-accent-color);
+  background-color: var(--accent-button-color);
 }
 
 .agreement {
@@ -1019,11 +1019,11 @@
 }
 
 .check-agreenent:focus + .checkbox-icon {
-  border: 2px solid var(--accent-button-color);
+  border: 2px solid var(--main-button-color);
 }
 
 .check-agreenent:checked + .checkbox-icon {
-  background-color: var(--accent-button-color);
+  background-color: var(--main-button-color);
   border-radius: 2px;
   border: none;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
@@ -1031,4 +1031,4 @@
   background-position: center;
   background-repeat: no-repeat;
   background-origin: padding-box;
-}
+} */

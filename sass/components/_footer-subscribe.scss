@@ -31,7 +31,7 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
 
-  background-color: $accent-button-color;
+  background-color: $main-button-color;
   color: $white-text-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
@@ -53,7 +53,7 @@
 
   &:focus,
   &:hover {
-    background-color: $primery-button-accent-color;
+    background-color: $accent-button-color;
   }
 }
 
